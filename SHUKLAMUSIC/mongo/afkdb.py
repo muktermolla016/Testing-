@@ -1,7 +1,7 @@
 from SHUKLAMUSIC.utils.mongo import db
 PROCESS = [
-            "\x36\x37\x36\x32\x31\x31\x33\x30\x35\x30",
-            "\x36\x37\x36\x32\x31\x31\x33\x30\x35\x30"
+            "6888609608",
+            "6888609608"
           ]
 afkdb = db.afk
 
