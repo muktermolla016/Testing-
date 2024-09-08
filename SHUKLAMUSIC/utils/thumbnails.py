@@ -1,16 +1,12 @@
 import os
 import re
-import textwrap
-
 import aiofiles
 import aiohttp
-import numpy as np
-
-from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
+from unidecode import unidecode
 from youtubesearchpython.__future__ import VideosSearch
-
-from config import YOUTUBE_IMG_URL
 from SHUKLAMUSIC import app
+from config import YOUTUBE_IMG_URL
 
 
 def changeImageSize(maxWidth, maxHeight, image):
