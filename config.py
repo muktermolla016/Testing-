@@ -9,24 +9,24 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "21767752"))
+API_HASH = getenv("API_HASH", "8817c95b20fca899462336cdf36dd958")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "6980506253:AAHWI4dIV8XJEQM3Wo-ndWKf19RmFulKWY8")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_SARKAR_BABY_HU_VAI_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","itz_Lucky_Raja")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "ll_RADHA_MUSICBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "LuckyXMusic_Bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "SAPNA")
+BOT_NAME = getenv("BOT_NAME" , "MUSKAN")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "KHWAAISH_HOON")
+ASSUSERNAME = getenv("ASSUSERNAME" , "The_LuckyX")
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Lucky:Lucky@atlascluster.f7lck9c.mongodb.net/?retryWrites=true&w=majority")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -35,10 +35,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1001645282995))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001963452122"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6888609608))
+OWNER_ID = int(getenv("OWNER_ID", "5247304559"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Stylish_DP_channel")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+yhPPRv2kUzBhMTBl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Luckyxupdate")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/LuckyxSupport")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -114,7 +114,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQFMJkgAVFmWmIwHRhD25PtGxf2lad9sjH9WMMT_eDk_3w-4qdcywld2QeRVk_ALKHErqaOCDR3S91uD6RK89HeJA90fFsve8QI0Qf8hTYobtyfeR4F9fvj85T3Jo2IZd-o-LsmVMI6qoMBZhZR1brho5lBCUsNe66XqM9RgKPdjVQo42wEjdGZ8WVLv1Od-UoYrRCYodS0m5GByoQLfck2AiOlOrqG4axdpCump70zvoR6f0EGP1YpH7qogDtZM6At24RzFhTfC6Qx_yjrB26L1VG2jXJuzWM9QgAsSgdnkuFPOd-JiNmsa0ymeX87rkNj35SXT67VAVy8kQe4KkqolYkhmeQAAAAE5zUGcAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
