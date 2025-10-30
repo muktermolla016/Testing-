@@ -22,7 +22,7 @@ from SHUKLAMUSIC.utils.inline import (
 )
 from SHUKLAMUSIC.utils.logger import play_logs
 from SHUKLAMUSIC.utils.stream.stream import stream
-from config import BANNED_USERS, lyrical
+from config import BANNED_USERS, lyrical, AMBOT
 
 
 @app.on_message(
